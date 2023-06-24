@@ -1,5 +1,5 @@
 # CSV-populator-GUI
-# GUI-using-GTK3-and-Python
+(GUI-using-GTK3-and-Python)
 ## Problem statement:
   I have a .csv file which has n-columns. A few of these columns are entry_fields while few are drop_down. I will fill the first line of .csv manually, each entry in each column indicating the header for that column, with comma as the separator. As n value increases, and as the number of drop_down options(for drop_down columns) is more, it becomes challenging to make entries without errors (especially if entries into some coloumns are sentences!). The intent of this GUI is to reduce the hassle in filling this .csv. From visual ease pov, consider the below cases <br>
   ```
