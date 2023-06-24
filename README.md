@@ -65,7 +65,7 @@ First, I'm importing csv, and gi libraries. csv library is used to read and writ
               ```
 Next, I'm defining a class called 'csv_populator_gui' which extends from the parent class 'GTK.Window'. It means that csv_populator_gui will inherit all properties and methods of 'GTK.Window'. In def__init__() block we initialize different configuration settings. Here, I am using it to configure the GUI dimensions. It's upto our preference as to what size we want the GUI to be. I prefer the GUI to fit to the screen, so I'm first defining the width as 0 (default), then fetching the dimensions of screen and finally assigning these dimensions to default. 'stative_boss' is the handle for this instance of csv_populator_gui. <br/>
 
-In the tail part, 
+In the tail part, I'm creating a window for the main class. Then I'm connecting the 'destroy' event to Gtk.main_quit() function. It basically means that I want the code to terminate once I close the window (not to keep iterating the loops, if any, in the background). 
 
 ### chunk_2 Read the csv
 Read csv and store the fields of first row. These are to be used a labels in GUI. Number of filled fields will tell GUI how many columns are there.
